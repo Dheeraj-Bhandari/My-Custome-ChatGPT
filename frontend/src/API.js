@@ -1,0 +1,1 @@
+export const OpenAPILink = 'http://localhost:8080'
