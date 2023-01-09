@@ -72,7 +72,7 @@ const handleSubmit = async (e)=>{
 
   loader(messageDiv)
 
-  const response = await fetch("http://localhost:8080/callApi", {
+  const response = await fetch("https://my-custome-chat-gpt-api-server.vercel.app/callApi", {
     method : "POST",
     headers : {
       'Content-Type' : 'application/json'
